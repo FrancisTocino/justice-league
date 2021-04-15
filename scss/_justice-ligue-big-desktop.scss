@@ -1,0 +1,478 @@
+@mixin  big-desktop-v {
+
+
+
+    *, *:before, *:after {   /* IMPRESINDIBLE */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: inherit;
+    }
+
+
+
+    html {
+        background-color: #efefef;
+        height: 100vh;
+        
+        /* Incluye el contenido, padding y border dentro del 
+        total del ancho del elemento pero no el margin*/
+
+        box-sizing: border-box;
+        font-family: 'Comic Neue', cursive;
+        font-size: 1.7vh;
+        color: #000;
+        overflow: hidden;
+    }
+
+
+  /*************************/
+  /*       PRELOADER        */
+  /*************************/
+  #contenedor_carga{
+    background-color: rgba(250, 250, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transform: all 1s easy;
+    transform: all 1s easy;
+    -o-transition: all 1s easy;
+    transition: all 1s easy;
+    z-index: 10000;
+  }
+  
+  #carga{
+    border: 15px solid #ccc;
+    border-top-color: #113743;
+    border-top-style:solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+  
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+  }
+  
+  @keyframes girar {
+    from { transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+  
+
+
+  #copyright{
+    position:absolute;
+    top:200px;
+    left:0;
+    width: fit-content;
+    background-color: white;
+    color:black;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    z-index: 9999;
+    >a {
+        text-decoration: none; 
+     }
+}
+
+
+
+
+    .flex-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+
+    }
+/* ------------  SEPARADORES  ----------  */
+
+  video.fullscreen {
+        position: absolute;
+        z-index: 0;
+        object-fit: cover;
+        width:100%;
+        height:100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &::-webkit-media-controls {
+        display:none !important;
+        }
+   }
+
+ 
+ 
+  .letter-content {
+     z-index: 1;
+  }
+ 
+
+    img{    /* IMPRESINDIBLE */
+        background-size: cover; 
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+    
+    /* ------------   END SEPARADORES --------------------*/
+
+    /* ------------    SECTION LAYOUT --------------------*/
+
+    .section {
+        padding:20px;
+        background-color: white;
+    }
+    #section1{
+        display: flex;
+       
+    }
+    .section-wrapper {
+        height: 1000px;
+        width:1000px;
+        background-color:white;
+    }
+    .up {
+        background-color:transparent;
+    }
+
+    .up>img#superman-section
+    {
+        shape-outside: url('/images/superman-section-2.png');
+        shape-image-threshold: 0.5;
+        shape-margin: 5px;
+        float:left;
+    }
+
+
+    .up>img#batman-section {
+        shape-outside: url('/images/batman-section-3.png');
+        shape-image-threshold: 0.5;
+        shape-margin: 5px;
+        float:left;
+
+    }
+
+    .up>img#wonder-section {
+        shape-outside: url('/images/wonderWoman-section.png');
+        shape-image-threshold: 0.5;
+        shape-margin: 5px;
+        float:left;
+
+    }
+
+    .up>img#aquaman-section {
+        shape-outside: url('/images/aquaman-section-2.png');
+        shape-image-threshold: 0.5;
+        shape-margin: 5px;
+        float:left;
+
+    }
+
+    .up>img#flash-section {
+        shape-outside: url('/images/flash-section.png');
+        shape-image-threshold: 0.5;
+        shape-margin: 5px;
+        float:left;
+
+    }
+
+    .up>img#cyborg-section {
+        shape-outside: url('/images/cyborg-section.png');
+        shape-image-threshold: 0.5;
+        shape-margin: 5px;
+        float:left;
+
+    }
+
+
+
+    .superman-logo-wrapper{
+        background-color:rgb(6, 6, 134);
+        height: 200px;
+        width: 200px;
+        z-index: 99;
+        float: right;
+        border-radius: 100%;
+        border:5px solid #8d1a1e;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .batman-logo-wrapper{
+        background-color:rgb(148, 143, 143);
+        height: 200px;
+        width: 200px;
+        z-index: 99;
+        float: right;
+        border-radius: 100%;
+        border:5px solid black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wonderwoman-logo-wrapper{
+        background-color:#ac0505;
+        height: 200px;
+        width: 200px;
+        z-index: 99;
+        float: right;
+        border-radius: 100%;
+        border:5px solid rgb(253, 221, 77);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aquaman-logo-wrapper{
+        background-color:#476441;
+        height: 200px;
+        width: 200px;
+        z-index: 99;
+        float: right;
+        border-radius: 100%;
+        border:5px solid rgb(219, 180, 5);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flash-logo-wrapper{
+        background-color:rgb(141, 85, 12);
+        height: 200px;
+        width: 200px;
+        z-index: 99;
+        float: right;
+        border-radius: 100%;
+        border:5px solid rgb(163, 34, 34);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cyborg-logo-wrapper{
+        background-color:rgb(0, 0, 0);
+        height: 200px;
+        width: 200px;
+        z-index: 99;
+        float: right;
+        border-radius: 100%;
+        border:5px solid red;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #superman-logo-section {    
+        width: 186px;
+        height: 145px;
+    }
+
+
+    #batman-logo-section{
+        width: 176px;
+        height: 143px;
+        
+    }
+
+   #wonder-logo-section{
+       
+        width: 204px;
+        height: 173px;
+    }
+
+   #aquaman-logo-section{
+        
+        width: 150px;
+        height: 110px;
+        
+    }
+
+    #flash-logo-section{
+        
+        width: 150px;
+        height: 150px;
+    }
+
+    #cyborg-logo-section{
+        
+        width: 150px;
+        height: 200px;
+    }
+
+    /* ------------    END  CSS GRID ---------------------*/
+
+    /* ------------   SECTIONS  --------------------*/
+
+    .img-main:hover {
+        transform: skew(2deg)
+    }
+ 
+    
+
+ /*  FOOTER */   
+
+      #footer-flex {
+
+      /*FLEX */	
+          display: flex;
+        flex-direction: row;
+          justify-content: flex-start;
+          align-items: center; 
+
+
+        
+          position: fixed;
+          z-index: 200;
+          height:10%;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          padding-left: 1rem;   
+      }
+
+      /*---------------------------------*/
+
+
+}  /* FIN DE MIXIN */
+
+
+/* NAV BAR */
+        //vars
+        $fg:#5a6f72;
+        $bg:#673ab7;
+        $pi:3.14;
+
+        //config
+        $menu-items:7;
+        $open-distance:105px;
+        $opening-angle:$pi*3;
+
+
+        a{
+        color:inherit;
+        }
+
+
+        .menu img {
+                width:45px;
+                height:45px;    
+                &#home-icon {
+                    width:25px;
+                    height:25px;
+                }
+        }
+
+        #logo-justice{
+            width:40px;
+            height:40px;
+        }
+
+
+        %goo{
+        filter:url('#shadowed-goo');
+        // debug 
+        //background:rgba(255,0,0,0.2);
+        }
+        %ball{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#0c0c0c;
+        border-radius:100%;
+        border:2px solid white;
+        width:50px;
+        height:50px;
+        margin-left:-40px;
+        position:absolute;
+        top:0px;
+        color:white;
+        transform:translate3d(0,0,0);
+        transition:transform ease-out 500ms;
+        }
+
+
+        .menu-open{
+        display:none;
+        }
+        .menu-item{
+        @extend %ball;
+        }
+
+
+
+        .menu{
+            @extend %goo;
+            $width:850px;
+            $height:150px;
+            left:5%;
+            margin-left:-80px;
+            padding-top:20px;
+            padding-left:80px;
+            width:100%;
+            height:$height;
+            box-sizing:border-box;
+            text-align:left;
+        }
+
+
+        .menu-item{
+        &:hover{
+            background:#930F0F;
+            color:$fg;
+        }
+        @for $i from 1 through $menu-items{
+            &:nth-child(#{$i+2}){
+            transition-duration:180ms;
+            }
+        }
+        }
+
+
+
+        .menu-open-button{
+        @extend %ball;
+        z-index:2;
+        transition-timing-function:cubic-bezier(0.175, 0.885, 0.320, 1.275);
+        transition-duration:400ms;
+        transform:scale(1.1,1.1) translate3d(0,0,0);
+        cursor:pointer;
+        }
+        .menu-open-button:hover{
+        transform:scale(1.2,1.2) translate3d(0,0,0);
+        }
+        .menu-open:checked+.menu-open-button{
+        transition-timing-function:linear;
+        transition-duration:200ms;
+        transform:scale(.8,.8) translate3d(0,0,0);
+        }
+
+        .menu-open:checked~.menu-item{
+        transition-timing-function:cubic-bezier(0.165, 0.840, 0.440, 1.000);
+
+
+        @for $i from 1 through 6{
+
+            &:nth-child(#{$i+2}){
+            transition-duration:100ms+(50ms*$i);
+            transform:translate3d(70px*$i,0,0);
+            }
+        }
+
+        &:last-child{
+            transition-duration:100ms+(50ms*7);
+            transform:translate3d(0,-70px,0);
+        }
+
+        }
+
+/* FIN DEL NAV BAR  */

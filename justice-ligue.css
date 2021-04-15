@@ -1,0 +1,838 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    background: #ffffff;
+    font-family: Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: -1px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  .section {
+    /* Impresincible */
+    margin: 0px;
+    bottom: 0px;
+    width: 4000px;
+    float: left;
+    height: 100%;
+    text-shadow: 1px 1px 2px red; }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; } }
+@media (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    background: #ffffff;
+    font-family: Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: -1px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  .section {
+    /* Impresincible */
+    margin: 0px;
+    bottom: 0px;
+    width: 4000px;
+    float: left;
+    height: 100%;
+    text-shadow: 1px 1px 2px #f0f0f0; }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; } }
+@media (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    background: #ffffff;
+    font-family: Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: -1px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  .section {
+    /* Impresincible */
+    margin: 0px;
+    bottom: 0px;
+    width: 4000px;
+    float: left;
+    height: 100%;
+    text-shadow: 1px 1px 2px #f0f0f0; }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; } }
+@media (max-width: 1800px) {
+  *, *:before, *:after {
+    /* IMPRESINDIBLE */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: inherit; }
+
+  html {
+    /*background-image: url("../images/Web_Nuestras-Cervezas-01.png"); */
+    background-color: bisque;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /* Incluye el contenido, padding y border dentro del 
+    total del ancho del elemento pero no el margin*/
+    box-sizing: border-box;
+    color: #000;
+    overflow: hidden; }
+
+  #info {
+    z-index: 1000;
+    color: white;
+    background-color: red;
+    width: 200px; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  img {
+    /* IMPRESCINDIBLE  */
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  /* ------------   SECTIONS  --------------------*/
+  #section1 a {
+    text-decoration: none !important; }
+
+  #section1 a:hover {
+    font-weight: normal !important; }
+
+  #section1 > * p {
+    font-size: .8em; }
+
+  #texto6brubia {
+    position: absolute;
+    top: 71%;
+    left: 9%;
+    width: 180px;
+    text-align: center; }
+
+  #texto6tostada {
+    position: absolute;
+    top: 71%;
+    left: 23%;
+    width: 180px;
+    text-align: center; }
+
+  #texto6negraipa {
+    position: absolute;
+    top: 71%;
+    left: 37%;
+    width: 180px;
+    text-align: center; }
+
+  #texto6negrastout {
+    position: absolute;
+    top: 71%;
+    left: 53%;
+    width: 180px;
+    text-align: center; }
+
+  #texto6rubiaeco {
+    position: absolute;
+    top: 71%;
+    left: 72%;
+    width: 180px;
+    text-align: center; }
+
+  #texto6brubiaipa {
+    position: absolute;
+    top: 71%;
+    left: 87%;
+    width: 180px;
+    text-align: center; }
+
+  /* ------------   SECCIONES  --------------------*/
+  .logotexto {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    width: 59%;
+    text-align: center; }
+
+  .logotexto .logo_small {
+    border-right: 2px solid #000000;
+    margin-right: 2%;
+    padding-right: 2%; }
+
+  .logotexto .logo_small img {
+    width: 100%;
+    height: auto; }
+
+  .logotexto .logo_small span {
+    font-size: 2em; }
+
+  .texto_exp {
+    font-size: 1.2em;
+    text-align: left; }
+
+  .exp_central {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    width: 59%;
+    height: 41%; }
+
+  .nota_cata {
+    width: 100%;
+    margin-bottom: 1.5em; }
+
+  .title {
+    font-size: 1.2em;
+    font-weight: bold; }
+
+  .comment {
+    font-size: 1em; }
+
+  .sentidos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 1.5em; }
+
+  .center {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 11%; }
+
+  #copa {
+    width: 60px;
+    height: 60px !important;
+    padding: 0px;
+    margin-right: 3%;
+    border: 0px; }
+
+  #nariz {
+    width: 60px;
+    height: 60px !important;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-right: 3%; }
+
+  #drinker {
+    width: 60px;
+    height: 60px !important;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-right: 3%; }
+
+  .maridaje {
+    margin-top: 11%; }
+
+  .numeros {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    width: 57%;
+    height: 11%;
+    text-align: center; }
+
+  .numeros .grande {
+    font-size: 4.5em; }
+
+  .foot_article {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: absolute;
+    top: 74%;
+    left: 3%;
+    width: 65%;
+    height: 7%;
+    margin-top: 2%; }
+
+  .foot_article .big {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 3%; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; }
+
+  /*---------------------------------*/ }
+@media (min-width: 1800px) {
+  *, *:before, *:after {
+    /* IMPRESINDIBLE */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: inherit; }
+
+  html {
+    background-image: url("../images/Web_Nuestras-Cervezas-01.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /* Incluye el contenido, padding y border dentro del 
+    total del ancho del elemento pero no el margin*/
+    box-sizing: border-box;
+    color: #000;
+    overflow: hidden; }
+
+  #info {
+    z-index: 1000;
+    color: white;
+    background-color: orange;
+    width: 200px; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  img {
+    /* IMPRESCINDIBLE  */
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  /* ------------   SECTIONS  --------------------*/
+  #section1 a {
+    text-decoration: none !important; }
+
+  #section1 a:hover {
+    font-weight: normal !important; }
+
+  #texto6brubia {
+    position: absolute;
+    top: 71%;
+    left: 9%;
+    width: 180px;
+    font-size: 1rem;
+    text-align: center; }
+
+  #texto6tostada {
+    position: absolute;
+    top: 71%;
+    left: 23%;
+    width: 180px;
+    font-size: 1rem;
+    text-align: center; }
+
+  #texto6negraipa {
+    position: absolute;
+    top: 71%;
+    left: 37%;
+    width: 180px;
+    font-size: 1rem;
+    text-align: center; }
+
+  #texto6negrastout {
+    position: absolute;
+    top: 71%;
+    left: 53%;
+    width: 180px;
+    font-size: 1rem;
+    text-align: center; }
+
+  #texto6rubiaeco {
+    position: absolute;
+    top: 71%;
+    left: 72%;
+    width: 180px;
+    font-size: 1rem;
+    text-align: center; }
+
+  #texto6brubiaipa {
+    position: absolute;
+    top: 71%;
+    left: 87%;
+    width: 180px;
+    font-size: 1rem;
+    text-align: center; }
+
+  /* ------------   SECCIONES  --------------------*/
+  .logotexto {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    width: 59%;
+    text-align: center; }
+
+  .logotexto .logo_small {
+    border-right: 2px solid #000000;
+    margin-right: 2%;
+    padding-right: 2%; }
+
+  .logotexto .logo_small img {
+    width: 100%;
+    height: auto; }
+
+  .logotexto .logo_small span {
+    font-size: 2em; }
+
+  .texto_exp {
+    font-size: 1.2em;
+    text-align: left; }
+
+  .exp_central {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    width: 59%;
+    height: 41%; }
+
+  .nota_cata {
+    width: 100%;
+    margin-bottom: 1.5em; }
+
+  .title {
+    font-size: 1.2em;
+    font-weight: bold; }
+
+  .comment {
+    font-size: 1em; }
+
+  .sentidos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 1.5em; }
+
+  .center {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 11%; }
+
+  #copa {
+    width: 60px;
+    height: 60px !important;
+    padding: 0px;
+    margin-right: 3%;
+    border: 0px; }
+
+  #nariz {
+    width: 60px;
+    height: 60px !important;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-right: 3%; }
+
+  #drinker {
+    width: 60px;
+    height: 60px !important;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-right: 3%; }
+
+  .maridaje {
+    margin-top: 11%; }
+
+  .numeros {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    width: 57%;
+    height: 11%;
+    text-align: center; }
+
+  .numeros .grande {
+    font-size: 4.5em; }
+
+  .foot_article {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: absolute;
+    top: 74%;
+    left: 3%;
+    width: 65%;
+    height: 7%;
+    margin-top: 2%; }
+
+  .foot_article .big {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 3%; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; }
+
+  /*---------------------------------*/ }
+
+/*# sourceMappingURL=justice-ligue.css.map */

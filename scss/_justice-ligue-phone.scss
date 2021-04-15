@@ -1,0 +1,133 @@
+// mobile -> mayor que 544px //
+
+@mixin  phone-v{
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#ffffff;
+    font-family:Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing:-1px;
+    width:100vw;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+      video{
+          width: 100vw;
+          height: 100vh;
+          position: absolute;
+          top: 0px;
+          left: 430px;
+          margin:0;
+          padding: 0;
+          border:0;
+          z-index: -10;
+      }
+
+.flex-wrapper{
+      display: flex;
+      flex-wrap:nowrap;
+
+}
+
+.section{    /* Impresincible */
+    margin:0px;
+    bottom:0px;
+    width:4000px;
+    float:left;
+    height:100%;
+    text-shadow:1px 1px 2px red;
+} 
+
+
+
+ img{
+        background-size: cover; 
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+
+      }
+
+
+
+
+      /* Para que el Logotipo se Redimensione */
+
+#footer-flex {
+
+/*FLEX */	
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center; 
+
+
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+  
+    position: fixed;
+    z-index: 200;
+    height:12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem;   
+}
+
+footer #logo-footer {
+  position: relative;
+  left: 0px;
+  top: 0;
+  z-index: 202;
+  height: 47%;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 13px;
+  border: 0px;
+  opacity: 2;
+}
+
+#logo-footer-bar{
+  height: 100%;
+
+
+}
+
+
+.footer-item { 
+  font-family: 'Roboto Condensed', sans-serif;  
+  color: black;
+  margin:  15px 12px 10px 12px;
+  text-align: center;
+  font-size: 1.7ex;
+  line-height: 18px;
+
+  height: 55px;
+  width: 100px;
+  text-decoration: none;
+
+}
+
+a:hover {         
+  font-weight: bold;
+}
+
+
+
+}  /* FIN DE MIXIN */
+

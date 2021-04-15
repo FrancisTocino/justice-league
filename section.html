@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECTIONS</title>
+
+    <style>
+        .section-wrapper {
+            height: 100%;
+            width:1000px;
+            background-color:white;
+        }
+        .up {
+            background-color:transparent;
+            //height: 300px;
+        }
+        .up>img{
+            width: 150px;
+            height: auto;
+            shape-outside: url(images/superman-section.png);
+            shape-image-threshold: 0.5;
+            shape-margin: 20px;
+            float:left;
+        }
+        .middle {
+            background-color: transparent;
+            margin-bottom: 40px;
+        }
+        .middle>img{
+            width: 100px;
+            height: 100px;
+            shape-outside: url(images/aquaman-logo.jpg);
+            shape-image-threshold: 0.5;
+            shape-margin: 20px;
+            float:right;
+        }
+
+        .down {
+            background-color: transparent;
+            border-top: 2px solid #3aadca;
+            margin-top: 40px;
+            padding: 40px;
+            margin:auto;
+        }
+        .actor-image{
+            width: 100px;
+            height: 100px;
+            float:right;
+            top:0px;
+        }
+
+        .tg {
+            width:80%;
+            border-collapse:collapse;
+            border-spacing:0;
+            margin:auto;
+        }
+        th {
+            width:40%;
+        }
+        th.afoto {
+            width: 20%;
+        }
+        .tg td{          
+            overflow:hidden;
+            padding:10px 5px;
+            word-break:normal;
+            width:20%;
+        }
+
+        .tg .tg-0lax{          
+            text-align:left;
+            vertical-align:top;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div id=section-wrapper" class="section-wrapper">
+        <div id="up-wrapper" class="up">
+            <img src="images/superman-section.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, consectetur
+            quod deserunt qui laborum cupiditate repudiandae corporis praesentium quidem
+            eligendi atque cum nihil sequi doloribus exercitationem hic provident non! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Facilis facere esse eos. Perspiciatis
+            facilis tenetur aspernatur eum harum enim adipisci eius vel ipsum, debitis
+            assumenda delectus neque optio labore illo?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, consectetur
+            quod deserunt qui laborum cupiditate repudiandae corporis praesentium quidem
+            eligendi atque cum nihil sequi doloribus exercitationem hic provident non! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Facilis facere esse eos. Perspiciatis
+            facilis tenetur aspernatur eum harum enim adipisci eius vel ipsum, debitis
+            assumenda delectus neque optio labore illo?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, consectetur
+            quod deserunt qui laborum cupiditate repudiandae corporis praesentium quidem
+            eligendi atque cum nihil sequi doloribus exercitationem hic provident non! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Facilis facere esse eos. Perspiciatis
+            facilis tenetur aspernatur eum harum enim adipisci eius vel ipsum, debitis
+            assumenda delectus neque optio labore illo?</p>
+        </div>
+        <div id="middle-wrapper" class="middle">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, consectetur
+            quod deserunt qui laborum cupiditate repudiandae corporis praesentium quidem
+            eligendi atque cum nihil sequi doloribus exercitationem hic provident non! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Facilis facere esse eos. Perspiciatis
+            facilis tenetur aspernatur eum harum enim adipisci eius vel ipsum, debitis
+            assumenda delectus neque optio labore illo?</p>
+            <img src="images/aquaman-logo-alpha.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, consectetur
+            quod deserunt qui laborum cupiditate repudiandae corporis praesentium quidem
+            eligendi atque cum nihil sequi doloribus exercitationem hic provident non! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Facilis facere esse eos. Perspiciatis
+            facilis tenetur aspernatur eum harum enim adipisci eius vel ipsum, debitis
+            assumenda delectus neque optio labore illo?</p>
+        </div>
+        <div id="down-wrapper" class="down">
+                <table class="tg">
+
+                  <tr>
+                    <th class="tg-0lax afoto" rowspan="3">
+                        <img src="images/superman-actor.jpg" alt="" height=150px>
+                    </th>
+                    <th class="tg-0lax">Información personal</th>
+                    <th class="tg-0lax">Información profesiona</th>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">Nombre de nacimiento:Henry William Dalgliesh Cavill</td>
+                    <td class="tg-0lax">Ocupación: Actor</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">Nacimiento:5 de mayo de 1983 (37 años)
+                        Bandera de Reino Unido Saint Helier (Jersey)</td>
+                    <td class="tg-0lax">Años activo:2001-actualidad</td>
+                  </tr>
+
+                </table>
+              
+        </div>
+
+
+    </div>
+</body>
+</html>

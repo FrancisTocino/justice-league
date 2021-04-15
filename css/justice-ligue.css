@@ -1,0 +1,1046 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+/* FIN DE MIXIN */
+/* NAV BAR */
+a {
+  color: inherit; }
+
+.menu img {
+  width: 45px;
+  height: 45px; }
+  .menu img#home-icon {
+    width: 25px;
+    height: 25px; }
+
+#logo-justice {
+  width: 40px;
+  height: 40px; }
+
+.menu {
+  filter: url("#shadowed-goo"); }
+
+.menu-item, .menu-open-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0c0c0c;
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  margin-left: -40px;
+  position: absolute;
+  top: 0px;
+  color: white;
+  transform: translate3d(0, 0, 0);
+  transition: transform ease-out 500ms; }
+
+.menu-open {
+  display: none; }
+
+.menu {
+  left: 5%;
+  margin-left: -80px;
+  padding-top: 20px;
+  padding-left: 80px;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  text-align: left; }
+
+.menu-item:hover {
+  background: #930F0F;
+  color: #5a6f72; }
+.menu-item:nth-child(3) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(4) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(5) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(6) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(7) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(8) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(9) {
+  transition-duration: 180ms; }
+
+.menu-open-button {
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer; }
+
+.menu-open-button:hover {
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0); }
+
+.menu-open:checked + .menu-open-button {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0); }
+
+.menu-open:checked ~ .menu-item {
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .menu-open:checked ~ .menu-item:nth-child(3) {
+    transition-duration: 150ms;
+    transform: translate3d(70px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(4) {
+    transition-duration: 200ms;
+    transform: translate3d(140px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(5) {
+    transition-duration: 250ms;
+    transform: translate3d(210px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(6) {
+    transition-duration: 300ms;
+    transform: translate3d(280px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(7) {
+    transition-duration: 350ms;
+    transform: translate3d(350px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(8) {
+    transition-duration: 400ms;
+    transform: translate3d(420px, 0, 0); }
+  .menu-open:checked ~ .menu-item:last-child {
+    transition-duration: 450ms;
+    transform: translate3d(0, -70px, 0); }
+
+/* FIN DEL NAV BAR  */
+/* FIN DE MIXIN */
+/* NAV BAR */
+a {
+  color: inherit; }
+
+.menu img {
+  width: 45px;
+  height: 45px; }
+  .menu img#home-icon {
+    width: 25px;
+    height: 25px; }
+
+#logo-justice {
+  width: 40px;
+  height: 40px; }
+
+.menu {
+  filter: url("#shadowed-goo"); }
+
+.menu-item, .menu-open-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0c0c0c;
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  margin-left: -40px;
+  position: absolute;
+  top: 0px;
+  color: white;
+  transform: translate3d(0, 0, 0);
+  transition: transform ease-out 500ms; }
+
+.menu-open {
+  display: none; }
+
+.menu {
+  left: 5%;
+  margin-left: -80px;
+  padding-top: 20px;
+  padding-left: 80px;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  text-align: left; }
+
+.menu-item:hover {
+  background: #930F0F;
+  color: #5a6f72; }
+.menu-item:nth-child(3) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(4) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(5) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(6) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(7) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(8) {
+  transition-duration: 180ms; }
+.menu-item:nth-child(9) {
+  transition-duration: 180ms; }
+
+.menu-open-button {
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer; }
+
+.menu-open-button:hover {
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0); }
+
+.menu-open:checked + .menu-open-button {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0); }
+
+.menu-open:checked ~ .menu-item {
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .menu-open:checked ~ .menu-item:nth-child(3) {
+    transition-duration: 150ms;
+    transform: translate3d(70px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(4) {
+    transition-duration: 200ms;
+    transform: translate3d(140px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(5) {
+    transition-duration: 250ms;
+    transform: translate3d(210px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(6) {
+    transition-duration: 300ms;
+    transform: translate3d(280px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(7) {
+    transition-duration: 350ms;
+    transform: translate3d(350px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(8) {
+    transition-duration: 400ms;
+    transform: translate3d(420px, 0, 0); }
+  .menu-open:checked ~ .menu-item:last-child {
+    transition-duration: 450ms;
+    transform: translate3d(0, -70px, 0); }
+
+/* FIN DEL NAV BAR  */
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    background: #ffffff;
+    font-family: Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: -1px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  .section {
+    /* Impresincible */
+    margin: 0px;
+    bottom: 0px;
+    width: 4000px;
+    float: left;
+    height: 100%;
+    text-shadow: 1px 1px 2px red; }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; } }
+@media (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    background: #ffffff;
+    font-family: Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: -1px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  .section {
+    /* Impresincible */
+    margin: 0px;
+    bottom: 0px;
+    width: 4000px;
+    float: left;
+    height: 100%;
+    text-shadow: 1px 1px 2px #f0f0f0; }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; } }
+@media (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    background: #ffffff;
+    font-family: Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: -1px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -10; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+
+  .section {
+    /* Impresincible */
+    margin: 0px;
+    bottom: 0px;
+    width: 4000px;
+    float: left;
+    height: 100%;
+    text-shadow: 1px 1px 2px #f0f0f0; }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* Para que el Logotipo se Redimensione */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    opacity: 0.75;
+    background: #efefef;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 200;
+    height: 12%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  footer #logo-footer {
+    position: relative;
+    left: 0px;
+    top: 0;
+    z-index: 202;
+    height: 47%;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 13px;
+    border: 0px;
+    opacity: 2; }
+
+  #logo-footer-bar {
+    height: 100%; }
+
+  .footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin: 15px 12px 10px 12px;
+    text-align: center;
+    font-size: 1.7ex;
+    line-height: 18px;
+    height: 55px;
+    width: 100px;
+    text-decoration: none; }
+
+  a:hover {
+    font-weight: bold; } }
+@media (max-width: 1800px) {
+  *, *:before, *:after {
+    /* IMPRESINDIBLE */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: inherit; }
+
+  html {
+    background-color: #efefef;
+    height: 100vh;
+    /* Incluye el contenido, padding y border dentro del 
+    total del ancho del elemento pero no el margin*/
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-size: 2vh;
+    color: #000;
+    overflow: hidden; }
+
+  /*************************/
+  /*       PRELOADER        */
+  /*************************/
+  #contenedor_carga {
+    background-color: rgba(250, 250, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transform: all 1s easy;
+    transform: all 1s easy;
+    -o-transition: all 1s easy;
+    transition: all 1s easy;
+    z-index: 10000; }
+
+  #carga {
+    border: 15px solid #ccc;
+    border-top-color: #113743;
+    border-top-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite; }
+
+  @keyframes girar {
+    from {
+      transform: rotate(0deg); }
+    to {
+      transform: rotate(360deg); } }
+  #copyright {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    z-index: 9999; }
+    #copyright > a {
+      text-decoration: none; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+
+  /* ------------  SEPARADORES  ----------  */
+  video.fullscreen {
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    video.fullscreen::-webkit-media-controls {
+      display: none !important; }
+
+  .letter-content {
+    z-index: 1; }
+
+  img {
+    /* IMPRESINDIBLE */
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* ------------   END SEPARADORES --------------------*/
+  /* ------------    SECTION LAYOUT --------------------*/
+  .section {
+    padding: 20px;
+    background-color: white; }
+
+  #section1 {
+    display: flex; }
+
+  .section-wrapper {
+    height: 1000px;
+    width: 1000px;
+    background-color: white; }
+
+  .up {
+    background-color: transparent; }
+
+  .up > img#superman-section {
+    shape-outside: url("/images/superman-section-2.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#batman-section {
+    shape-outside: url("/images/batman-section-3.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#wonder-section {
+    shape-outside: url("/images/wonderWoman-section.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#aquaman-section {
+    shape-outside: url("/images/aquaman-section-2.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#flash-section {
+    shape-outside: url("/images/flash-section.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#cyborg-section {
+    shape-outside: url("/images/cyborg-section.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .middle {
+    background-color: transparent;
+    margin-bottom: 40px;
+    position: relative;
+    height: 500px; }
+
+  .superman-logo-wrapper {
+    background-color: #060686;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #8d1a1e;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .batman-logo-wrapper {
+    background-color: #948f8f;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .wonderwoman-logo-wrapper {
+    background-color: #ac0505;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #fddd4d;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .aquaman-logo-wrapper {
+    background-color: #476441;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #dbb405;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .flash-logo-wrapper {
+    background-color: #8d550c;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #a32222;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .cyborg-logo-wrapper {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  #superman-logo-section {
+    width: 186px;
+    height: 145px; }
+
+  #batman-logo-section {
+    width: 176px;
+    height: 143px; }
+
+  #wonder-logo-section {
+    width: 204px;
+    height: 173px; }
+
+  #aquaman-logo-section {
+    width: 150px;
+    height: 110px; }
+
+  #flash-logo-section {
+    width: 150px;
+    height: 150px; }
+
+  #cyborg-logo-section {
+    width: 150px;
+    height: 200px; }
+
+  /* ------------    END  CSS GRID ---------------------*/
+  /* ------------   SECTIONS  --------------------*/
+  .img-main:hover {
+    transform: skew(2deg); }
+
+  /*  FOOTER */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    z-index: 200;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  /*---------------------------------*/ }
+@media (min-width: 1800px) {
+  *, *:before, *:after {
+    /* IMPRESINDIBLE */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: inherit; }
+
+  html {
+    background-color: #efefef;
+    height: 100vh;
+    /* Incluye el contenido, padding y border dentro del 
+    total del ancho del elemento pero no el margin*/
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.7vh;
+    color: #000;
+    overflow: hidden; }
+
+  /*************************/
+  /*       PRELOADER        */
+  /*************************/
+  #contenedor_carga {
+    background-color: rgba(250, 250, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transform: all 1s easy;
+    transform: all 1s easy;
+    -o-transition: all 1s easy;
+    transition: all 1s easy;
+    z-index: 10000; }
+
+  #carga {
+    border: 15px solid #ccc;
+    border-top-color: #113743;
+    border-top-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite; }
+
+  @keyframes girar {
+    from {
+      transform: rotate(0deg); }
+    to {
+      transform: rotate(360deg); } }
+  #copyright {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    z-index: 9999; }
+    #copyright > a {
+      text-decoration: none; }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+
+  /* ------------  SEPARADORES  ----------  */
+  video.fullscreen {
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    video.fullscreen::-webkit-media-controls {
+      display: none !important; }
+
+  .letter-content {
+    z-index: 1; }
+
+  img {
+    /* IMPRESINDIBLE */
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; }
+
+  /* ------------   END SEPARADORES --------------------*/
+  /* ------------    SECTION LAYOUT --------------------*/
+  .section {
+    padding: 20px;
+    background-color: white; }
+
+  #section1 {
+    display: flex; }
+
+  .section-wrapper {
+    height: 1000px;
+    width: 1000px;
+    background-color: white; }
+
+  .up {
+    background-color: transparent; }
+
+  .up > img#superman-section {
+    shape-outside: url("/images/superman-section-2.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#batman-section {
+    shape-outside: url("/images/batman-section-3.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#wonder-section {
+    shape-outside: url("/images/wonderWoman-section.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#aquaman-section {
+    shape-outside: url("/images/aquaman-section-2.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#flash-section {
+    shape-outside: url("/images/flash-section.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .up > img#cyborg-section {
+    shape-outside: url("/images/cyborg-section.png");
+    shape-image-threshold: 0.5;
+    shape-margin: 5px;
+    float: left; }
+
+  .superman-logo-wrapper {
+    background-color: #060686;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #8d1a1e;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .batman-logo-wrapper {
+    background-color: #948f8f;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .wonderwoman-logo-wrapper {
+    background-color: #ac0505;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #fddd4d;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .aquaman-logo-wrapper {
+    background-color: #476441;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #dbb405;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .flash-logo-wrapper {
+    background-color: #8d550c;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid #a32222;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .cyborg-logo-wrapper {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    float: right;
+    border-radius: 100%;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  #superman-logo-section {
+    width: 186px;
+    height: 145px; }
+
+  #batman-logo-section {
+    width: 176px;
+    height: 143px; }
+
+  #wonder-logo-section {
+    width: 204px;
+    height: 173px; }
+
+  #aquaman-logo-section {
+    width: 150px;
+    height: 110px; }
+
+  #flash-logo-section {
+    width: 150px;
+    height: 150px; }
+
+  #cyborg-logo-section {
+    width: 150px;
+    height: 200px; }
+
+  /* ------------    END  CSS GRID ---------------------*/
+  /* ------------   SECTIONS  --------------------*/
+  .img-main:hover {
+    transform: skew(2deg); }
+
+  /*  FOOTER */
+  #footer-flex {
+    /*FLEX */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    z-index: 200;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1rem; }
+
+  /*---------------------------------*/ }
+
+/*# sourceMappingURL=justice-ligue.css.map */

@@ -1,0 +1,42 @@
+//---------------------------- IMPORTS -----------------
+// --------------------------- TYPOGRAFIA --------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+@import 'breakpoints';
+@import 'justice-ligue-phone';
+@import 'justice-ligue-tablet-portrait';
+@import 'justice-ligue-tablet-landscape';
+@import 'justice-ligue-desktop';
+@import 'justice-ligue-big-desktop';
+
+
+
+// (INICIO)----------ELEMENTOS CON Media Querys  ----------------------*/
+
+ 
+   @include responsive (phone) {
+           @include phone-v; 
+    }
+    @include responsive (tablet-portrait){
+           @include tablet-portrait-v;
+    }
+    @include responsive (tablet-landscape){
+           @include tablet-landscape-v;             
+    }  
+    @include responsive (desktop){
+           @include desktop-v;            
+    }
+    @include responsive (big-desktop){
+           @include big-desktop-v;        
+    }
+
+
+
+
+// CLASES GENERALES -------------------- //
+
+
+
+
+

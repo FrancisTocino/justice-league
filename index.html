@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>VOLAERA WEB SITE</title>
+
+    <script>
+            function getWidthScreen(){
+                    //Función para obtener el Ancho(Width)
+                    var screen_width = screen.width;
+
+                    if (screen_width < 600) {
+                        texto = " PHONE";
+                    } else if (screen_width >= 600 && screen_width < 900) {
+                        texto = "TABLET-PORTRAIT";
+                    } else if (screen_width >= 900 && screen_width < 1200) {
+                        texto = "TABLET-LANDSCAPE";
+                    } else if (screen_width >= 1200 && screen_width < 1800) {
+                        texto = "DESKTOP";
+                    } else if (screen_width >= 1800) {
+                        texto = "BIG-DESKTOP";
+                    } 
+                    //alert ( "El ancho de la pantalla es: "+screen_width+"px. Pertenece al Grupo: "+texto);
+
+                    return texto;
+
+            }
+    </script>
+
+    <script>
+        function Navigator() {
+
+            let pantalla = getWidthScreen();
+            
+            if (pantalla === "DESKTOP" || pantalla === "BIG-DESKTOP") {
+                
+                //alert ("Pantalla Compatible");
+                window.location = "justice-league.html";
+            }
+            else{
+                
+                //alert ("Pantalla NO compatible");
+                window.location = "error.html";
+            }
+
+        }
+
+    </script>
+
+</head>
+
+<body onload="Navigator()">  
+</body>
+
+</html>
